@@ -1,0 +1,6 @@
+#The cpptraj input file to calculate distances between specific residue pairs. Modify the residue numbers as necessary.
+
+#Distance between A66 and V229
+trajin first_scenario_rep1.dcd
+vector v0 :66@CA :229@CA out distance.agr magnitude
+go
