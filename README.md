@@ -63,6 +63,7 @@ To calculate RMSF of each protein residue, use the following commands after runn
 
 
 `source snapshot.tcl`
+
 `takesnapshot <frame_number>`
 
 **Note:**
