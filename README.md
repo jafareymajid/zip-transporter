@@ -50,13 +50,13 @@ To calculate RMSF of each protein residue, use the following commands after runn
 
 `cpptraj -p *.parm7 -i rmsf_second_monomer.in`
 
--To visualize the results type the following command line in the Linux terminal:
+To visualize the results type the following command line in the Linux terminal:
 
 `xmgrace output.agr`
 
 **Visualization**
 
--Visual Molecular Dynamics (VMD) software, version 1.9.4a53, was used to take required snapshots using the snapshot.tcl script.
+Visual Molecular Dynamics (VMD) software, version 1.9.4a53, was used to take required snapshots using the snapshot.tcl script.
 
 1. Open VMD and load the topology and trajectory files.
 
