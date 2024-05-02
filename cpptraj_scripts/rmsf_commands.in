@@ -1,5 +1,0 @@
-#The cpptraj input file to calculate RMSF of specific residues.
-
-trajin first_scenario_rep1.dcd
-atomicfluct out rmsf_CA_first_monomer.agr @CA&:1-304 byres
-go
