@@ -15,7 +15,7 @@ Usage
 =======
 **Distance Calculations:**
 
--To calculate distances between specific residues, use cpptraj. Provide the topology and trajectory files from Zenodo [link]. Here are commands to calculate distances between certain residue pairs:
+To calculate distances between specific residues, use cpptraj. Provide the topology and trajectory files from Zenodo [link]. Here are commands to calculate distances between certain residue pairs:
 
 1. Distance between A66 and V229
 
@@ -58,8 +58,9 @@ To calculate RMSF of each protein residue, use the following commands after runn
 
 -Visual Molecular Dynamics (VMD) software, version 1.9.4a53, was used to take required snapshots using the snapshot.tcl script.
 
--Open VMD and load the topology and trajectory files.
--Open TK Console (Extensions > TK Console) and run the following command to extract the required snapshot from the simulations:
+1. Open VMD and load the topology and trajectory files.
+
+2. Open TK Console (Extensions > TK Console) and run the following command to extract the required snapshot from the simulations:
 
 
 `source snapshot.tcl`
@@ -68,7 +69,7 @@ To calculate RMSF of each protein residue, use the following commands after runn
 
 **Note:**
 
--The residue numbers are based on those in the simulations. The first 5 residues of the protein are missing in the cryo-EM structure, so the residues are renumbered in the simulations as follows:
+The residue numbers are based on those in the simulations. The first 5 residues of the protein are missing in the cryo-EM structure, so the residues are renumbered in the simulations as follows:
 
 For example, residue #66 in the simulations corresponds to residue #71 in the cryo-EM structure.
 
