@@ -68,7 +68,7 @@ To calculate RMSF of each protein residue, use the following commands after runn
 
 **Note:**
 
--The residue numbers are based on those in the simulations. The first 5 residues of the protein are missing in the cryo-EM structure, so the residues are renumbered in the simulation as follows:
+-The residue numbers are based on those in the simulations. The first 5 residues of the protein are missing in the cryo-EM structure, so the residues are renumbered in the simulations as follows:
 
 For example, residue #66 in the simulations corresponds to residue #71 in the cryo-EM structure.
 
