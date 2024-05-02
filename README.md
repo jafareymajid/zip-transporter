@@ -33,7 +33,7 @@ To calculate distances between specific residues, use cpptraj. Provide the topol
 
 `cpptraj -p *.parm7 -i distance_commands.in`
 
--To visualize the results type the following command line in the Linux terminal:
+To visualize the results type the following command line in the Linux terminal:
 
 `xmgrace output.agr`
 
